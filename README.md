@@ -17,8 +17,8 @@ A clean authentication flow implementation using Flutter and Supabase as the bac
 
 - **Frontend**: Flutter
 - **Backend**: Supabase (Auth, Database)
-- **State Management**: Provider/Riverpod (choose one)
-- **Form Validation**: Formz or manual validation
+- **State Management**: Cubit
+- **Form Validation**: manual validation
 
 ## Screens
 
@@ -41,17 +41,8 @@ A clean authentication flow implementation using Flutter and Supabase as the bac
    - Reset password button
    - Back to login link
 
-## Getting Started
-
-### Prerequisites
-
-- Flutter SDK
-- Dart SDK
-- Supabase account
-
 ### Setup
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/flutter-supabase-auth.git
-   cd flutter-supabase-auth
+   git clone https://github.com/sayedyounis00/AuthTest.git
