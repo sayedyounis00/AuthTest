@@ -1,16 +1,57 @@
-# new_app
+# Flutter Authentication with Supabase
 
-A new Flutter project.
+A clean authentication flow implementation using Flutter and Supabase as the backend.
+
+![Login Screen](screenshots/login.jpg) | ![Register Screen](screenshots/register.jpg) | ![Reset Password](screenshots/resest_pass.jpg)
+---|---|---
+
+## Features
+
+- User registration with password strength validation
+- Email/password login
+- Password reset functionality
+- Clean, modern UI
+- Supabase backend integration
+
+## Tech Stack
+
+- **Frontend**: Flutter
+- **Backend**: Supabase (Auth, Database)
+- **State Management**: Provider/Riverpod (choose one)
+- **Form Validation**: Formz or manual validation
+
+## Screens
+
+1. **Login Screen**
+   - Email input
+   - Password input
+   - Login button
+   - Forgot password link
+
+2. **Registration Screen**
+   - Full name input
+   - Email input
+   - Password input with strength indicator
+   - Confirm password field
+   - Register button
+   - Login link
+
+3. **Password Reset Screen**
+   - Email input
+   - Reset password button
+   - Back to login link
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK
+- Dart SDK
+- Supabase account
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Setup
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/flutter-supabase-auth.git
+   cd flutter-supabase-auth
